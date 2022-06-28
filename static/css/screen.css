@@ -415,7 +415,7 @@ table table table {
 }
 
 table tbody > tr:nth-child(odd) > td,
-table tbody > tr:nth-child(odd) > th {
+table tbody {
   background: transparent;
 }
 
