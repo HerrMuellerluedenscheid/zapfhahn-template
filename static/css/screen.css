@@ -179,6 +179,10 @@ a {
   -moz-transition: all ease 0.3s;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 a:hover {
   color: #86c440;
 }
@@ -385,7 +389,8 @@ table td {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #efefef;
+  border-top: 1px solid #e77676;
+  border-bottom: 1px solid #e77676;
 }
 
 table th {
@@ -411,7 +416,7 @@ table table table {
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-  background-color: #f6f6f6;
+  background: transparent;
 }
 
 table.plain {
